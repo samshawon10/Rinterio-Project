@@ -589,10 +589,10 @@
   </section>
 
   <!-- Discuss about Project Section -->
-  <section class="py-12  bg-[url('/assets/bg.jpg')] bg-no-repeat bg-cover mt-4">
-    <section class="md:container md:mx-auto py-24 mx-12 border-2  border-black">
-       <!-- Text part -->
-       <div class="text-center mb-20">
+  <section class="py-12  bg-[url('/assets/bg.jpg')] bg-no-repeat bg-cover mt-4 ">
+    <section class="md:container md:mx-auto py-24 mx-12 ">
+      <!-- Text part -->
+      <div class="text-center mb-20">
         <!-- Button Part -->
         <button class="btn bg-[#ABEF5F33] rounded-3xl font-bold text-xl"><svg xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24" fill="currentColor" class="size-6">
@@ -611,7 +611,7 @@
       </div>
 
       <!-- Form Part -->
-       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 mx-auto lg:px-24 px-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 mx-auto lg:px-24 px-auto">
         <label class="input input-bordered flex items-center rounded-[64px] p-8 gap-2 ">
           <input type="text" class="grow" placeholder="First Name*" />
         </label>
@@ -624,10 +624,25 @@
         <label class="input input-bordered flex items-center gap-2 rounded-[64px] p-8">
           <input type="email" class="grow" placeholder="Email Number*" />
         </label>
-       </div>
+      </div>
+      <div class="grid gap-8 lg:gap-10 mx-auto lg:px-24 px-auto mt-8">
+        <textarea class="textarea textarea-bordered rounded-3xl col-span-2"
+          placeholder="Write your message here"></textarea>
+      </div>
 
+      <div class="grid gap-8 lg:gap-10 mx-auto lg:px-24 px-auto mt-8">
+        <!-- Button part -->
+        <button class="btn bg-[#ABEF5F80] font-bold text-2xl rounded-[32px] mt-2 h-[56px]">View Details <div
+            class="w-[32px] h-[32px] rounded-full flex justify-center items-center bg-black text-white m-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </div>
+        </button>
+      </div>
 
-      </section>
+    </section>
   </section>
 </body>
 
